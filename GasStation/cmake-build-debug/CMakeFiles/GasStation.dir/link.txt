@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/GasStation.dir/main.cpp.o CMakeFiles/GasStation.dir/core/store/Oil.cpp.o CMakeFiles/GasStation.dir/core/store/Petrol.cpp.o CMakeFiles/GasStation.dir/core/buisness/Order.cpp.o  -o GasStation 

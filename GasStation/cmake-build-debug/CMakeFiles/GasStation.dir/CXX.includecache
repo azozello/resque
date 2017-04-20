@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/azozello/CLionProjects/GasStation/core/buisness/Order.cpp
+bits/ios_base.h
+-
+ios
+-
+fstream
+-
+Order.h
+/home/azozello/CLionProjects/GasStation/core/buisness/Order.h
+
+/home/azozello/CLionProjects/GasStation/core/buisness/Order.h
+../store/Petrol.h
+/home/azozello/CLionProjects/GasStation/core/store/Petrol.h
+
+/home/azozello/CLionProjects/GasStation/core/store/Oil.cpp
+Oil.h
+/home/azozello/CLionProjects/GasStation/core/store/Oil.h
+
+/home/azozello/CLionProjects/GasStation/core/store/Oil.h
+
+/home/azozello/CLionProjects/GasStation/core/store/Petrol.cpp
+Petrol.h
+/home/azozello/CLionProjects/GasStation/core/store/Petrol.h
+
+/home/azozello/CLionProjects/GasStation/core/store/Petrol.h
+array
+-
+Oil.h
+/home/azozello/CLionProjects/GasStation/core/store/Oil.h
+
+/home/azozello/CLionProjects/GasStation/main.cpp
+iostream
+-
+core/store/Oil.h
+/home/azozello/CLionProjects/GasStation/core/store/Oil.h
+core/store/Petrol.h
+/home/azozello/CLionProjects/GasStation/core/store/Petrol.h
+
