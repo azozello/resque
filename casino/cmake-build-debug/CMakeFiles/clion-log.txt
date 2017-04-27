@@ -1,0 +1,4 @@
+/home/azozello/Downloads/clion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/azozello/CLionProjects/casino
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/azozello/CLionProjects/casino/cmake-build-debug

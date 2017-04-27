@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/azozello/CLionProjects/casino/game/Bones.cpp
+iostream
+-
+Bones.h
+/home/azozello/CLionProjects/casino/game/Bones.h
+
+/home/azozello/CLionProjects/casino/game/Bones.h
+array
+-
+Game.h
+/home/azozello/CLionProjects/casino/game/Game.h
+
+/home/azozello/CLionProjects/casino/game/Game.cpp
+Game.h
+/home/azozello/CLionProjects/casino/game/Game.h
+
+/home/azozello/CLionProjects/casino/game/Game.h
+array
+-
+
+/home/azozello/CLionProjects/casino/main.cpp
+iostream
+-
+fstream
+-
+game/Bones.h
+/home/azozello/CLionProjects/casino/game/Bones.h
+

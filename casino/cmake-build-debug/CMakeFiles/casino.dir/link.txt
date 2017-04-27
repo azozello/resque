@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/casino.dir/main.cpp.o CMakeFiles/casino.dir/game/Game.cpp.o CMakeFiles/casino.dir/game/Bones.cpp.o  -o casino 
