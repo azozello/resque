@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Campus2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/azozello/CLionProjects/OutSource/Campus2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/Campus2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/Campus2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/Campus2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/Campus2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/azozello/CLionProjects/OutSource/Campus2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/Campus2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/Campus2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/Campus2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/Campus2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/azozello/CLionProjects/OutSource/Campus2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/Campus2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/Campus2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/Campus2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/Campus2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Campus2">
+				<Option output="/home/azozello/CLionProjects/OutSource/Campus2/cmake-build-debug/Campus2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/azozello/CLionProjects/OutSource/Campus2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/Campus2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Campus2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/Campus2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/Campus2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/Campus2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Campus2/fast">
+				<Option output="/home/azozello/CLionProjects/OutSource/Campus2/cmake-build-debug/Campus2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/azozello/CLionProjects/OutSource/Campus2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/Campus2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Campus2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/Campus2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/Campus2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/Campus2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/Campus2/area/Hostel.cpp">
+			<Option target="Campus2"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/Campus2/area/Hostel.h">
+			<Option target="Campus2"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/Campus2/area/Room.cpp">
+			<Option target="Campus2"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/Campus2/area/Room.h">
+			<Option target="Campus2"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/Campus2/human/Human.cpp">
+			<Option target="Campus2"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/Campus2/human/Human.h">
+			<Option target="Campus2"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/Campus2/human/Manager.cpp">
+			<Option target="Campus2"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/Campus2/human/Manager.h">
+			<Option target="Campus2"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/Campus2/human/Staff.cpp">
+			<Option target="Campus2"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/Campus2/human/Staff.h">
+			<Option target="Campus2"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/Campus2/human/Student.cpp">
+			<Option target="Campus2"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/Campus2/human/Student.h">
+			<Option target="Campus2"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/Campus2/main.cpp">
+			<Option target="Campus2"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/Campus2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
