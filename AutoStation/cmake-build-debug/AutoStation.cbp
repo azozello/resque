@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="AutoStation"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/azozello/CLionProjects/OutSource/AutoStation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/AutoStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/AutoStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/AutoStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/AutoStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/azozello/CLionProjects/OutSource/AutoStation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/AutoStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/AutoStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/AutoStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/AutoStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/azozello/CLionProjects/OutSource/AutoStation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/AutoStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/AutoStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/AutoStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/AutoStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AutoStation">
+				<Option output="/home/azozello/CLionProjects/OutSource/AutoStation/cmake-build-debug/AutoStation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/azozello/CLionProjects/OutSource/AutoStation/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/AutoStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 AutoStation"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/AutoStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/AutoStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/AutoStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AutoStation/fast">
+				<Option output="/home/azozello/CLionProjects/OutSource/AutoStation/cmake-build-debug/AutoStation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/azozello/CLionProjects/OutSource/AutoStation/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/AutoStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 AutoStation/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/AutoStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/AutoStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/AutoStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/AutoStation/classes/cpp/Bus.cpp">
+			<Option target="AutoStation"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/AutoStation/classes/cpp/Car.cpp">
+			<Option target="AutoStation"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/AutoStation/classes/cpp/City.cpp">
+			<Option target="AutoStation"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/AutoStation/classes/cpp/Driver.cpp">
+			<Option target="AutoStation"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/AutoStation/classes/cpp/Human.cpp">
+			<Option target="AutoStation"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/AutoStation/classes/cpp/Manager.cpp">
+			<Option target="AutoStation"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/AutoStation/classes/cpp/Repairer.cpp">
+			<Option target="AutoStation"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/AutoStation/classes/cpp/Truck.cpp">
+			<Option target="AutoStation"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/AutoStation/classes/h/Bus.h">
+			<Option target="AutoStation"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/AutoStation/classes/h/Car.h">
+			<Option target="AutoStation"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/AutoStation/classes/h/City.h">
+			<Option target="AutoStation"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/AutoStation/classes/h/Driver.h">
+			<Option target="AutoStation"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/AutoStation/classes/h/Human.h">
+			<Option target="AutoStation"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/AutoStation/classes/h/Manager.h">
+			<Option target="AutoStation"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/AutoStation/classes/h/Repairer.h">
+			<Option target="AutoStation"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/AutoStation/classes/h/Truck.h">
+			<Option target="AutoStation"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/AutoStation/main.cpp">
+			<Option target="AutoStation"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/AutoStation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
