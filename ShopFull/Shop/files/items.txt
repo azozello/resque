@@ -1,0 +1,6 @@
+chery 5.9 4
+apple 3.2 1.5
+pineapple 7.8 4.5 
+cheeseburger 9.1 5.1 
+orange 8.7 4.5 
+apple1 10 5 
