@@ -1,0 +1,3 @@
+/home/azozello/CLionProjects/OutSource/Radio/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/azozello/CLionProjects/OutSource/Radio/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/azozello/CLionProjects/OutSource/Radio/cmake-build-debug/CMakeFiles/Radio.dir

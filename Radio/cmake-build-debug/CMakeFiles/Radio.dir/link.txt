@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/Radio.dir/main.cpp.o CMakeFiles/Radio.dir/classes/cpp/Human.cpp.o CMakeFiles/Radio.dir/classes/cpp/Caster.cpp.o CMakeFiles/Radio.dir/classes/cpp/Item.cpp.o CMakeFiles/Radio.dir/classes/cpp/Advertise.cpp.o CMakeFiles/Radio.dir/classes/cpp/Song.cpp.o CMakeFiles/Radio.dir/classes/cpp/Programm.cpp.o  -o Radio 
