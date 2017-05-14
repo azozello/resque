@@ -13,7 +13,7 @@ int Bones::play() {
             tempScore += cast();
         }
         scores[i] = tempScore;
-        //cout<<"Temp score: "<<tempScore<<endl;
+        cout<<"Temp score: "<<tempScore<<endl;
     }
     return chooseWinner(scores,getPlayers());
 }
@@ -22,7 +22,7 @@ int Bones::chooseWinner(int scores [], int length) {
     int temp = 0;
     for (int i = 0; i < length; i++) {
         if (scores[i] > temp){
-            //cout<<scores[i]<<" "<<i<<endl;
+            cout<<scores[i]<<" "<<i<<endl;
             temp = i;
         }
     }
@@ -30,8 +30,9 @@ int Bones::chooseWinner(int scores [], int length) {
 }
 
 int Bones::cast() {
+    srand(time(0));
     long temp = rand()%7+1;
-    //cout<<"Rand: "<<temp<<endl;
+    cout<<"Rand: "<<temp<<endl;
     return (int)temp;
 }
 
@@ -43,26 +44,3 @@ int Bones::getBones() const {
     return bones;
 }
 
-const string &Bones::getName() const {
-    return Game::getName();
-}
-
-void Bones::setName(const string &name) {
-    Game::setName(name);
-}
-
-float Bones::getPrice() const {
-    return Game::getPrice();
-}
-
-void Bones::setPrice(float price) {
-    Game::setPrice(price);
-}
-
-int Bones::getPlayers() const {
-    return Game::getPlayers();
-}
-
-void Bones::setPlayers(int players) {
-    Game::setPlayers(players);
-}

@@ -1,4 +1,4 @@
-# Install script for directory: /home/azozello/CLionProjects/casino
+# Install script for directory: /home/azozello/CLionProjects/OutSource/casino
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/azozello/CLionProjects/casino/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

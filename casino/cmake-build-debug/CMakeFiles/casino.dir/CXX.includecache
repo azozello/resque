@@ -6,31 +6,67 @@
 
 #IncludeRegexTransform: 
 
-/home/azozello/CLionProjects/casino/game/Bones.cpp
+/home/azozello/CLionProjects/OutSource/casino/game/Bones.cpp
 iostream
 -
 Bones.h
-/home/azozello/CLionProjects/casino/game/Bones.h
+/home/azozello/CLionProjects/OutSource/casino/game/Bones.h
 
-/home/azozello/CLionProjects/casino/game/Bones.h
+/home/azozello/CLionProjects/OutSource/casino/game/Bones.h
 array
 -
 Game.h
-/home/azozello/CLionProjects/casino/game/Game.h
+/home/azozello/CLionProjects/OutSource/casino/game/Game.h
 
-/home/azozello/CLionProjects/casino/game/Game.cpp
-Game.h
-/home/azozello/CLionProjects/casino/game/Game.h
+/home/azozello/CLionProjects/OutSource/casino/game/Check.cpp
+iostream
+-
+fstream
+-
+Check.h
+/home/azozello/CLionProjects/OutSource/casino/game/Check.h
 
-/home/azozello/CLionProjects/casino/game/Game.h
+/home/azozello/CLionProjects/OutSource/casino/game/Check.h
 array
 -
 
-/home/azozello/CLionProjects/casino/main.cpp
+/home/azozello/CLionProjects/OutSource/casino/game/Game.cpp
+Game.h
+/home/azozello/CLionProjects/OutSource/casino/game/Game.h
+
+/home/azozello/CLionProjects/OutSource/casino/game/Game.h
+array
+-
+
+/home/azozello/CLionProjects/OutSource/casino/game/Player.cpp
+Player.h
+/home/azozello/CLionProjects/OutSource/casino/game/Player.h
+
+/home/azozello/CLionProjects/OutSource/casino/game/Player.h
+array
+-
+
+/home/azozello/CLionProjects/OutSource/casino/game/Roulette.cpp
+iostream
+-
+Roulette.h
+/home/azozello/CLionProjects/OutSource/casino/game/Roulette.h
+
+/home/azozello/CLionProjects/OutSource/casino/game/Roulette.h
+Game.h
+/home/azozello/CLionProjects/OutSource/casino/game/Game.h
+
+/home/azozello/CLionProjects/OutSource/casino/main.cpp
 iostream
 -
 fstream
 -
 game/Bones.h
-/home/azozello/CLionProjects/casino/game/Bones.h
+/home/azozello/CLionProjects/OutSource/casino/game/Bones.h
+game/Roulette.h
+/home/azozello/CLionProjects/OutSource/casino/game/Roulette.h
+game/Player.h
+/home/azozello/CLionProjects/OutSource/casino/game/Player.h
+game/Check.h
+/home/azozello/CLionProjects/OutSource/casino/game/Check.h
 

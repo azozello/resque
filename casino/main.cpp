@@ -1,74 +1,100 @@
 #include <iostream>
 #include <fstream>
 #include "game/Bones.h"
-
-void leave(float money){
-    std::ofstream fout("/home/azozello/CLionProjects/casino/money/Money.txt", std::ios::app);
-    fout << "Money: " << money;
-    fout << std::endl;
-    fout.close();
-}
-
-void play(Bones bones) {
-    int seat;
-    float money = 0;
-    cout<<"Choose your seat: "<<endl;
-    cin>>seat;
-    cout<<"Choose your money: "<<endl;
-    while (money>0){
-        int flag = 0;
-        cout<<"Enter 1 to play, 0 to leave"<<endl;
-        cin>>flag;
-        if (flag==0){
-            leave(money);
-            return;
-        } else if (flag==1){
-            int winner = bones.play();
-            if (seat==winner){
-                cout<<"You win!";
-                money += (bones.getPrice()*bones.getPlayers());
-            } else {
-                cout<<"You lose!";
-                money -= bones.getPrice();
-            }
-        } else {
-            cout<<"Unknown Command"<<endl;
-        }
-    }
-}
-
-void help(){
-    cout << "Enter 1 to play, 0 to leave" << endl;
-}
+#include "game/Roulette.h"
+#include "game/Player.h"
+#include "game/Check.h"
 
 int main() {
-    while (true) {
-        int flag;
-        help();
+    string name, game;
+    int seat, flag;
+    float money = 0;
+    float price;
+    int bonesAmount;
+    int players;
+
+    Bones *bones = new Bones();
+    Roulette *roulette = new Roulette();
+    Player *player = new Player();
+    Check *check = new Check();
+
+    start:
+
+    cout<<"Enter name: "<<endl;
+    cin>>name;
+    cout<<"Enter money: "<<endl;
+    cin>>money;
+
+    player->setMoney(money);
+    player->setName(name);
+
+    while (true){
+        cout<<"Enter 1 to play bones"<<endl;
+        cout<<"Enter 2 to play roulette"<<endl;
+        cout<<"Enter 3 to show money"<<endl;
+        cout<<"Enter 0 to take money and leave"<<endl;
         cin>>flag;
-        if (flag==0){
-            return 1;
-        } else if(flag==1){
-            string name;
-            float price;
-            int bones;
-            int players;
+        switch (flag){
+            default:
+                cout<<"Unknown command"<<endl;
+                break;
+            case 0:
+                check->setName(player->getName());
+                check->setGame(game);
+                check->setMoney(player->getMoney());
+                check->print();
+                return 1;
+            case 1:
+                bones->setName("Bones");
+                cout<<"Enter price"<<endl;
+                cin>>price;
 
-            Bones *game = new Bones();
-            cout << "Enter price" << endl;
-            cin>>price;
-            cout << "Enter bones amount" << endl;
-            cin>>bones;
-            cout << "Enter players amount" << endl;
-            cin>>players;
+                if (price>money) goto start;
 
-            game->setBones(bones);
-            game->setPrice(price);
-            game->setPlayers(players);
+                bones->setPrice(price);
+                cout<<"Enter players"<<endl;
+                cin>>players;
+                bones->setPlayers(players);
+                cout<<"Enter bones"<<endl;
+                cin>>bonesAmount;
+                bones->setBones(bonesAmount);
 
-            play(*game);
-        } else {
-            cout<<"Unknown command"<<endl;
+                cout<<"Enter seat"<<endl;
+                cin>>seat;
+
+                if (seat == bones->play()){
+                    money += players*price;
+                } else {
+                    money -=price;
+                }
+                player->setMoney(money);
+                break;
+            case 2:
+                roulette->setName("Roulette");
+                cout<<"Enter price"<<endl;
+                cin>>price;
+
+                if (price>money) goto start;
+
+                roulette->setPrice(price);
+
+                cout<<"Enter players"<<endl;
+                cin>>players;
+                roulette->setPlayers(players);
+
+                cout<<"Enter seat"<<endl;
+                cin>>seat;
+
+                if (seat == bones->play()){
+                    money += players*price;
+                } else {
+                    money -=price;
+                }
+                player->setMoney(money);
+                break;
+            case 3:
+                cout<<"Money: "<<money<<endl;
+                break;
         }
     }
 }

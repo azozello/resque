@@ -48,10 +48,10 @@ RM = /home/azozello/Downloads/clion/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/azozello/CLionProjects/casino
+CMAKE_SOURCE_DIR = /home/azozello/CLionProjects/OutSource/casino
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/azozello/CLionProjects/casino/cmake-build-debug
+CMAKE_BINARY_DIR = /home/azozello/CLionProjects/OutSource/casino/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/azozello/CLionProjects/casino/cmake-build-debug/CMakeFiles /home/azozello/CLionProjects/casino/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/CMakeFiles /home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/azozello/CLionProjects/casino/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,6 +150,33 @@ game/Bones.cpp.s:
 	$(MAKE) -f CMakeFiles/casino.dir/build.make CMakeFiles/casino.dir/game/Bones.cpp.s
 .PHONY : game/Bones.cpp.s
 
+game/Check.o: game/Check.cpp.o
+
+.PHONY : game/Check.o
+
+# target to build an object file
+game/Check.cpp.o:
+	$(MAKE) -f CMakeFiles/casino.dir/build.make CMakeFiles/casino.dir/game/Check.cpp.o
+.PHONY : game/Check.cpp.o
+
+game/Check.i: game/Check.cpp.i
+
+.PHONY : game/Check.i
+
+# target to preprocess a source file
+game/Check.cpp.i:
+	$(MAKE) -f CMakeFiles/casino.dir/build.make CMakeFiles/casino.dir/game/Check.cpp.i
+.PHONY : game/Check.cpp.i
+
+game/Check.s: game/Check.cpp.s
+
+.PHONY : game/Check.s
+
+# target to generate assembly for a file
+game/Check.cpp.s:
+	$(MAKE) -f CMakeFiles/casino.dir/build.make CMakeFiles/casino.dir/game/Check.cpp.s
+.PHONY : game/Check.cpp.s
+
 game/Game.o: game/Game.cpp.o
 
 .PHONY : game/Game.o
@@ -176,6 +203,60 @@ game/Game.s: game/Game.cpp.s
 game/Game.cpp.s:
 	$(MAKE) -f CMakeFiles/casino.dir/build.make CMakeFiles/casino.dir/game/Game.cpp.s
 .PHONY : game/Game.cpp.s
+
+game/Player.o: game/Player.cpp.o
+
+.PHONY : game/Player.o
+
+# target to build an object file
+game/Player.cpp.o:
+	$(MAKE) -f CMakeFiles/casino.dir/build.make CMakeFiles/casino.dir/game/Player.cpp.o
+.PHONY : game/Player.cpp.o
+
+game/Player.i: game/Player.cpp.i
+
+.PHONY : game/Player.i
+
+# target to preprocess a source file
+game/Player.cpp.i:
+	$(MAKE) -f CMakeFiles/casino.dir/build.make CMakeFiles/casino.dir/game/Player.cpp.i
+.PHONY : game/Player.cpp.i
+
+game/Player.s: game/Player.cpp.s
+
+.PHONY : game/Player.s
+
+# target to generate assembly for a file
+game/Player.cpp.s:
+	$(MAKE) -f CMakeFiles/casino.dir/build.make CMakeFiles/casino.dir/game/Player.cpp.s
+.PHONY : game/Player.cpp.s
+
+game/Roulette.o: game/Roulette.cpp.o
+
+.PHONY : game/Roulette.o
+
+# target to build an object file
+game/Roulette.cpp.o:
+	$(MAKE) -f CMakeFiles/casino.dir/build.make CMakeFiles/casino.dir/game/Roulette.cpp.o
+.PHONY : game/Roulette.cpp.o
+
+game/Roulette.i: game/Roulette.cpp.i
+
+.PHONY : game/Roulette.i
+
+# target to preprocess a source file
+game/Roulette.cpp.i:
+	$(MAKE) -f CMakeFiles/casino.dir/build.make CMakeFiles/casino.dir/game/Roulette.cpp.i
+.PHONY : game/Roulette.cpp.i
+
+game/Roulette.s: game/Roulette.cpp.s
+
+.PHONY : game/Roulette.s
+
+# target to generate assembly for a file
+game/Roulette.cpp.s:
+	$(MAKE) -f CMakeFiles/casino.dir/build.make CMakeFiles/casino.dir/game/Roulette.cpp.s
+.PHONY : game/Roulette.cpp.s
 
 main.o: main.cpp.o
 
@@ -216,9 +297,18 @@ help:
 	@echo "... game/Bones.o"
 	@echo "... game/Bones.i"
 	@echo "... game/Bones.s"
+	@echo "... game/Check.o"
+	@echo "... game/Check.i"
+	@echo "... game/Check.s"
 	@echo "... game/Game.o"
 	@echo "... game/Game.i"
 	@echo "... game/Game.s"
+	@echo "... game/Player.o"
+	@echo "... game/Player.i"
+	@echo "... game/Player.s"
+	@echo "... game/Roulette.o"
+	@echo "... game/Roulette.i"
+	@echo "... game/Roulette.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -43,10 +43,10 @@ RM = /home/azozello/Downloads/clion/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/azozello/CLionProjects/casino
+CMAKE_SOURCE_DIR = /home/azozello/CLionProjects/OutSource/casino
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/azozello/CLionProjects/casino/cmake-build-debug
+CMAKE_BINARY_DIR = /home/azozello/CLionProjects/OutSource/casino/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/casino.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/casino.dir/flags.make
 
 CMakeFiles/casino.dir/main.cpp.o: CMakeFiles/casino.dir/flags.make
 CMakeFiles/casino.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/azozello/CLionProjects/casino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/casino.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/casino.dir/main.cpp.o -c /home/azozello/CLionProjects/casino/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/casino.dir/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/casino.dir/main.cpp.o -c /home/azozello/CLionProjects/OutSource/casino/main.cpp
 
 CMakeFiles/casino.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/casino.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/azozello/CLionProjects/casino/main.cpp > CMakeFiles/casino.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/azozello/CLionProjects/OutSource/casino/main.cpp > CMakeFiles/casino.dir/main.cpp.i
 
 CMakeFiles/casino.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/casino.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/azozello/CLionProjects/casino/main.cpp -o CMakeFiles/casino.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/azozello/CLionProjects/OutSource/casino/main.cpp -o CMakeFiles/casino.dir/main.cpp.s
 
 CMakeFiles/casino.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/casino.dir/main.cpp.o.provides.build: CMakeFiles/casino.dir/main.cpp.
 
 CMakeFiles/casino.dir/game/Game.cpp.o: CMakeFiles/casino.dir/flags.make
 CMakeFiles/casino.dir/game/Game.cpp.o: ../game/Game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/azozello/CLionProjects/casino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/casino.dir/game/Game.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/casino.dir/game/Game.cpp.o -c /home/azozello/CLionProjects/casino/game/Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/casino.dir/game/Game.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/casino.dir/game/Game.cpp.o -c /home/azozello/CLionProjects/OutSource/casino/game/Game.cpp
 
 CMakeFiles/casino.dir/game/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/casino.dir/game/Game.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/azozello/CLionProjects/casino/game/Game.cpp > CMakeFiles/casino.dir/game/Game.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/azozello/CLionProjects/OutSource/casino/game/Game.cpp > CMakeFiles/casino.dir/game/Game.cpp.i
 
 CMakeFiles/casino.dir/game/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/casino.dir/game/Game.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/azozello/CLionProjects/casino/game/Game.cpp -o CMakeFiles/casino.dir/game/Game.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/azozello/CLionProjects/OutSource/casino/game/Game.cpp -o CMakeFiles/casino.dir/game/Game.cpp.s
 
 CMakeFiles/casino.dir/game/Game.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/casino.dir/game/Game.cpp.o.provides.build: CMakeFiles/casino.dir/game
 
 CMakeFiles/casino.dir/game/Bones.cpp.o: CMakeFiles/casino.dir/flags.make
 CMakeFiles/casino.dir/game/Bones.cpp.o: ../game/Bones.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/azozello/CLionProjects/casino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/casino.dir/game/Bones.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/casino.dir/game/Bones.cpp.o -c /home/azozello/CLionProjects/casino/game/Bones.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/casino.dir/game/Bones.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/casino.dir/game/Bones.cpp.o -c /home/azozello/CLionProjects/OutSource/casino/game/Bones.cpp
 
 CMakeFiles/casino.dir/game/Bones.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/casino.dir/game/Bones.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/azozello/CLionProjects/casino/game/Bones.cpp > CMakeFiles/casino.dir/game/Bones.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/azozello/CLionProjects/OutSource/casino/game/Bones.cpp > CMakeFiles/casino.dir/game/Bones.cpp.i
 
 CMakeFiles/casino.dir/game/Bones.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/casino.dir/game/Bones.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/azozello/CLionProjects/casino/game/Bones.cpp -o CMakeFiles/casino.dir/game/Bones.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/azozello/CLionProjects/OutSource/casino/game/Bones.cpp -o CMakeFiles/casino.dir/game/Bones.cpp.s
 
 CMakeFiles/casino.dir/game/Bones.cpp.o.requires:
 
@@ -129,11 +129,86 @@ CMakeFiles/casino.dir/game/Bones.cpp.o.provides: CMakeFiles/casino.dir/game/Bone
 CMakeFiles/casino.dir/game/Bones.cpp.o.provides.build: CMakeFiles/casino.dir/game/Bones.cpp.o
 
 
+CMakeFiles/casino.dir/game/Check.cpp.o: CMakeFiles/casino.dir/flags.make
+CMakeFiles/casino.dir/game/Check.cpp.o: ../game/Check.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/casino.dir/game/Check.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/casino.dir/game/Check.cpp.o -c /home/azozello/CLionProjects/OutSource/casino/game/Check.cpp
+
+CMakeFiles/casino.dir/game/Check.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/casino.dir/game/Check.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/azozello/CLionProjects/OutSource/casino/game/Check.cpp > CMakeFiles/casino.dir/game/Check.cpp.i
+
+CMakeFiles/casino.dir/game/Check.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/casino.dir/game/Check.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/azozello/CLionProjects/OutSource/casino/game/Check.cpp -o CMakeFiles/casino.dir/game/Check.cpp.s
+
+CMakeFiles/casino.dir/game/Check.cpp.o.requires:
+
+.PHONY : CMakeFiles/casino.dir/game/Check.cpp.o.requires
+
+CMakeFiles/casino.dir/game/Check.cpp.o.provides: CMakeFiles/casino.dir/game/Check.cpp.o.requires
+	$(MAKE) -f CMakeFiles/casino.dir/build.make CMakeFiles/casino.dir/game/Check.cpp.o.provides.build
+.PHONY : CMakeFiles/casino.dir/game/Check.cpp.o.provides
+
+CMakeFiles/casino.dir/game/Check.cpp.o.provides.build: CMakeFiles/casino.dir/game/Check.cpp.o
+
+
+CMakeFiles/casino.dir/game/Roulette.cpp.o: CMakeFiles/casino.dir/flags.make
+CMakeFiles/casino.dir/game/Roulette.cpp.o: ../game/Roulette.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/casino.dir/game/Roulette.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/casino.dir/game/Roulette.cpp.o -c /home/azozello/CLionProjects/OutSource/casino/game/Roulette.cpp
+
+CMakeFiles/casino.dir/game/Roulette.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/casino.dir/game/Roulette.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/azozello/CLionProjects/OutSource/casino/game/Roulette.cpp > CMakeFiles/casino.dir/game/Roulette.cpp.i
+
+CMakeFiles/casino.dir/game/Roulette.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/casino.dir/game/Roulette.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/azozello/CLionProjects/OutSource/casino/game/Roulette.cpp -o CMakeFiles/casino.dir/game/Roulette.cpp.s
+
+CMakeFiles/casino.dir/game/Roulette.cpp.o.requires:
+
+.PHONY : CMakeFiles/casino.dir/game/Roulette.cpp.o.requires
+
+CMakeFiles/casino.dir/game/Roulette.cpp.o.provides: CMakeFiles/casino.dir/game/Roulette.cpp.o.requires
+	$(MAKE) -f CMakeFiles/casino.dir/build.make CMakeFiles/casino.dir/game/Roulette.cpp.o.provides.build
+.PHONY : CMakeFiles/casino.dir/game/Roulette.cpp.o.provides
+
+CMakeFiles/casino.dir/game/Roulette.cpp.o.provides.build: CMakeFiles/casino.dir/game/Roulette.cpp.o
+
+
+CMakeFiles/casino.dir/game/Player.cpp.o: CMakeFiles/casino.dir/flags.make
+CMakeFiles/casino.dir/game/Player.cpp.o: ../game/Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/casino.dir/game/Player.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/casino.dir/game/Player.cpp.o -c /home/azozello/CLionProjects/OutSource/casino/game/Player.cpp
+
+CMakeFiles/casino.dir/game/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/casino.dir/game/Player.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/azozello/CLionProjects/OutSource/casino/game/Player.cpp > CMakeFiles/casino.dir/game/Player.cpp.i
+
+CMakeFiles/casino.dir/game/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/casino.dir/game/Player.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/azozello/CLionProjects/OutSource/casino/game/Player.cpp -o CMakeFiles/casino.dir/game/Player.cpp.s
+
+CMakeFiles/casino.dir/game/Player.cpp.o.requires:
+
+.PHONY : CMakeFiles/casino.dir/game/Player.cpp.o.requires
+
+CMakeFiles/casino.dir/game/Player.cpp.o.provides: CMakeFiles/casino.dir/game/Player.cpp.o.requires
+	$(MAKE) -f CMakeFiles/casino.dir/build.make CMakeFiles/casino.dir/game/Player.cpp.o.provides.build
+.PHONY : CMakeFiles/casino.dir/game/Player.cpp.o.provides
+
+CMakeFiles/casino.dir/game/Player.cpp.o.provides.build: CMakeFiles/casino.dir/game/Player.cpp.o
+
+
 # Object files for target casino
 casino_OBJECTS = \
 "CMakeFiles/casino.dir/main.cpp.o" \
 "CMakeFiles/casino.dir/game/Game.cpp.o" \
-"CMakeFiles/casino.dir/game/Bones.cpp.o"
+"CMakeFiles/casino.dir/game/Bones.cpp.o" \
+"CMakeFiles/casino.dir/game/Check.cpp.o" \
+"CMakeFiles/casino.dir/game/Roulette.cpp.o" \
+"CMakeFiles/casino.dir/game/Player.cpp.o"
 
 # External object files for target casino
 casino_EXTERNAL_OBJECTS =
@@ -141,9 +216,12 @@ casino_EXTERNAL_OBJECTS =
 casino: CMakeFiles/casino.dir/main.cpp.o
 casino: CMakeFiles/casino.dir/game/Game.cpp.o
 casino: CMakeFiles/casino.dir/game/Bones.cpp.o
+casino: CMakeFiles/casino.dir/game/Check.cpp.o
+casino: CMakeFiles/casino.dir/game/Roulette.cpp.o
+casino: CMakeFiles/casino.dir/game/Player.cpp.o
 casino: CMakeFiles/casino.dir/build.make
 casino: CMakeFiles/casino.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/azozello/CLionProjects/casino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable casino"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable casino"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/casino.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +232,9 @@ CMakeFiles/casino.dir/build: casino
 CMakeFiles/casino.dir/requires: CMakeFiles/casino.dir/main.cpp.o.requires
 CMakeFiles/casino.dir/requires: CMakeFiles/casino.dir/game/Game.cpp.o.requires
 CMakeFiles/casino.dir/requires: CMakeFiles/casino.dir/game/Bones.cpp.o.requires
+CMakeFiles/casino.dir/requires: CMakeFiles/casino.dir/game/Check.cpp.o.requires
+CMakeFiles/casino.dir/requires: CMakeFiles/casino.dir/game/Roulette.cpp.o.requires
+CMakeFiles/casino.dir/requires: CMakeFiles/casino.dir/game/Player.cpp.o.requires
 
 .PHONY : CMakeFiles/casino.dir/requires
 
@@ -162,6 +243,6 @@ CMakeFiles/casino.dir/clean:
 .PHONY : CMakeFiles/casino.dir/clean
 
 CMakeFiles/casino.dir/depend:
-	cd /home/azozello/CLionProjects/casino/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/azozello/CLionProjects/casino /home/azozello/CLionProjects/casino /home/azozello/CLionProjects/casino/cmake-build-debug /home/azozello/CLionProjects/casino/cmake-build-debug /home/azozello/CLionProjects/casino/cmake-build-debug/CMakeFiles/casino.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/azozello/CLionProjects/OutSource/casino/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/azozello/CLionProjects/OutSource/casino /home/azozello/CLionProjects/OutSource/casino /home/azozello/CLionProjects/OutSource/casino/cmake-build-debug /home/azozello/CLionProjects/OutSource/casino/cmake-build-debug /home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/CMakeFiles/casino.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/casino.dir/depend
 

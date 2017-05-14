@@ -5,10 +5,23 @@ CMakeFiles/casino.dir/game/Bones.cpp.o: ../game/Bones.cpp
 CMakeFiles/casino.dir/game/Bones.cpp.o: ../game/Bones.h
 CMakeFiles/casino.dir/game/Bones.cpp.o: ../game/Game.h
 
+CMakeFiles/casino.dir/game/Check.cpp.o: ../game/Check.cpp
+CMakeFiles/casino.dir/game/Check.cpp.o: ../game/Check.h
+
 CMakeFiles/casino.dir/game/Game.cpp.o: ../game/Game.cpp
 CMakeFiles/casino.dir/game/Game.cpp.o: ../game/Game.h
 
+CMakeFiles/casino.dir/game/Player.cpp.o: ../game/Player.cpp
+CMakeFiles/casino.dir/game/Player.cpp.o: ../game/Player.h
+
+CMakeFiles/casino.dir/game/Roulette.cpp.o: ../game/Game.h
+CMakeFiles/casino.dir/game/Roulette.cpp.o: ../game/Roulette.cpp
+CMakeFiles/casino.dir/game/Roulette.cpp.o: ../game/Roulette.h
+
 CMakeFiles/casino.dir/main.cpp.o: ../game/Bones.h
+CMakeFiles/casino.dir/main.cpp.o: ../game/Check.h
 CMakeFiles/casino.dir/main.cpp.o: ../game/Game.h
+CMakeFiles/casino.dir/main.cpp.o: ../game/Player.h
+CMakeFiles/casino.dir/main.cpp.o: ../game/Roulette.h
 CMakeFiles/casino.dir/main.cpp.o: ../main.cpp
 

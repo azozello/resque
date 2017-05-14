@@ -7,7 +7,7 @@ using namespace std;
 
 #include "Game.h"
 
-class Bones : Game {
+class Bones : public Game {
 private:
     int bones;
     int cast();
@@ -16,12 +16,6 @@ public:
     Bones(const string &name, float price, int players, int bones);
     Bones();
     int play() override;
-    const string &getName() const override;
-    void setName(const string &name) override;
-    float getPrice() const override;
-    void setPrice(float price) override;
-    int getPlayers() const override;
-    void setPlayers(int players) override;
 
     int getBones() const;
     void setBones(int bones);

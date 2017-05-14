@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/azozello/CLionProjects/casino/cmake-build-debug"/>
+				<Option working_dir="/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/azozello/CLionProjects/casino/cmake-build-debug"/>
+				<Option working_dir="/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/azozello/CLionProjects/casino/cmake-build-debug"/>
+				<Option working_dir="/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="casino">
-				<Option output="/home/azozello/CLionProjects/casino/cmake-build-debug/casino" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/azozello/CLionProjects/casino/cmake-build-debug"/>
+				<Option output="/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/casino" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,15 +54,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 casino"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 casino"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="casino/fast">
-				<Option output="/home/azozello/CLionProjects/casino/cmake-build-debug/casino" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/azozello/CLionProjects/casino/cmake-build-debug"/>
+				<Option output="/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/casino" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,29 +77,47 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 casino/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 casino/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/azozello/CLionProjects/OutSource/casino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/azozello/CLionProjects/casino/game/Bones.cpp">
+		<Unit filename="/home/azozello/CLionProjects/OutSource/casino/game/Bones.cpp">
 			<Option target="casino"/>
 		</Unit>
-		<Unit filename="/home/azozello/CLionProjects/casino/game/Bones.h">
+		<Unit filename="/home/azozello/CLionProjects/OutSource/casino/game/Bones.h">
 			<Option target="casino"/>
 		</Unit>
-		<Unit filename="/home/azozello/CLionProjects/casino/game/Game.cpp">
+		<Unit filename="/home/azozello/CLionProjects/OutSource/casino/game/Check.cpp">
 			<Option target="casino"/>
 		</Unit>
-		<Unit filename="/home/azozello/CLionProjects/casino/game/Game.h">
+		<Unit filename="/home/azozello/CLionProjects/OutSource/casino/game/Check.h">
 			<Option target="casino"/>
 		</Unit>
-		<Unit filename="/home/azozello/CLionProjects/casino/main.cpp">
+		<Unit filename="/home/azozello/CLionProjects/OutSource/casino/game/Game.cpp">
 			<Option target="casino"/>
 		</Unit>
-		<Unit filename="/home/azozello/CLionProjects/casino/CMakeLists.txt">
+		<Unit filename="/home/azozello/CLionProjects/OutSource/casino/game/Game.h">
+			<Option target="casino"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/casino/game/Player.cpp">
+			<Option target="casino"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/casino/game/Player.h">
+			<Option target="casino"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/casino/game/Roulette.cpp">
+			<Option target="casino"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/casino/game/Roulette.h">
+			<Option target="casino"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/casino/main.cpp">
+			<Option target="casino"/>
+		</Unit>
+		<Unit filename="/home/azozello/CLionProjects/OutSource/casino/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
