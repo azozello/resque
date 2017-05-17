@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/OSBB.dir/main.cpp.o CMakeFiles/OSBB.dir/classes/cpp/Human.cpp.o CMakeFiles/OSBB.dir/classes/cpp/Head.cpp.o CMakeFiles/OSBB.dir/classes/cpp/Member.cpp.o CMakeFiles/OSBB.dir/classes/cpp/Event.cpp.o CMakeFiles/OSBB.dir/classes/cpp/Good.cpp.o  -o OSBB 

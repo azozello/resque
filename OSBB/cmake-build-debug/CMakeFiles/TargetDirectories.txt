@@ -1,0 +1,3 @@
+/home/azozello/CLionProjects/OutSource/OSBB/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/azozello/CLionProjects/OutSource/OSBB/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/azozello/CLionProjects/OutSource/OSBB/cmake-build-debug/CMakeFiles/OSBB.dir
