@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/Tanya.dir/main.cpp.o CMakeFiles/Tanya.dir/classes/Player.cpp.o CMakeFiles/Tanya.dir/classes/Track.cpp.o CMakeFiles/Tanya.dir/classes/Human.cpp.o CMakeFiles/Tanya.dir/classes/Manager.cpp.o  -o Tanya 
